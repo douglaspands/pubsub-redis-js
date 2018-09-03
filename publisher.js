@@ -1,5 +1,5 @@
 /**
- * @file Examplo de publisher utilizando Redis. 
+ * @file Exemplo de publisher utilizando Redis. 
  * @author @douglaspands
  * Esta aplicação tem como função ler o arquivo "mensagens.json"
  * e publicar a lista de mensagens no Redis.
