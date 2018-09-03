@@ -1,8 +1,7 @@
 {
-  "name": "redis-pubsub-js",
+  "name": "pubsub-redis-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Exemplo de publisher/subscriber com Node.js e Redis",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -15,7 +15,7 @@ publisher.on("error", (error) => {
 });
 
 // Lista de mensagens
-const mensagens = require('./mensagens.json');
+const mensagens = require('../input/mensagens.json');
 
 // Será publicado mensagem por mensagem
 mensagens.forEach(mensagem => {
