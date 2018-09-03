@@ -1,6 +1,11 @@
 /**
  * @file Examplo de subscriber utilizando Redis. 
  * @author @douglaspands
+ * Esta aplicação tem como função receber todas as publicações feitas 
+ * com a chave "pubsub" e mostra-las no console.
+ * Não foi utilizada o "subscriber.quit()"" aqui, porque quero que ela 
+ * fique presa sempre aguardando receber as mensagens.
+ * Caso queira cancelar: ctrl + c
  */
 'use strict';
 const subscriber = require("redis").createClient();

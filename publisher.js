@@ -1,6 +1,11 @@
 /**
  * @file Examplo de publisher utilizando Redis. 
  * @author @douglaspands
+ * Esta aplicação tem como função ler o arquivo "mensagens.json"
+ * e publicar a lista de mensagens no Redis.
+ * O arquivo contem uma lista de chave e valor, onde a chave é o parametro
+ * que a outra aplicação "subscriber.js" esta preparada pra receber.
+ * Após todas as publicações, a aplicação é encerrada. 
  */
 'use strict';
 const publisher = require("redis").createClient();
