@@ -1,0 +1,9 @@
+# file: compose-redis.yaml 
+# description: Container Redis (desenvolvimento).
+version: '3.1'
+services:
+    pubsub-redis:
+        image: redis:alpine
+        container_name: pubsub-redis
+        ports:
+            - "6379:6379"
