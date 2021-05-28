@@ -1,0 +1,18 @@
+[
+    {
+        "key": "pubsub",
+        "value": "Testando mensagem 1"
+    },
+    {
+        "key": "pubsub",
+        "value": "Testando mensagem 2"
+    },
+    {
+        "key": "chave_qualquer",
+        "value": "Esta mensagem nao pode ser apresentada"
+    },
+    {
+        "key": "pubsub",
+        "value": "{\n\t\"nome\": \"joao\",\n\t\"idade\": 25\n}"
+    }
+]
